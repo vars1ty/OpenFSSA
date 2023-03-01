@@ -1,0 +1,21 @@
+[package]
+name = "fssa"
+description = "Federal SSO Security Agency"
+license = "MIT"
+authors = [ "varsity" ]
+version = "0.3.7"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "*", features = ["full"] }
+crossterm = "*"
+indicatif = "*"
+arguments = "*"
+hex = "*"
+
+[profile.release]
+codegen-units = 1
+panic = "abort"
+opt-level = "z"
+strip = true
+lto = true
