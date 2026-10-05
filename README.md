@@ -1,3 +1,4 @@
+# No, this project is not active. No, I won't help you out.
 # FSSA
 ## What is FSSA?
 **F**ederal **S**SO **S**ecurity **A**Gency is a Star Stable Online modding utility, aiming to make the game less boring.
